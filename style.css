@@ -1,0 +1,54 @@
+p{
+    font-size: 40px;
+    
+}
+p::first-line{
+    color: blue;
+    font-variant: small-caps;
+    
+}
+p::first-letter{
+    color: rgb(255, 0, 212);
+    font-size: xx-large;
+    
+}
+
+::selection{
+    color: navy;
+    background-color: lavender;
+}
+
+ul{
+    font-size: 35px;
+    color: blue;
+}
+.box::after{
+    content: "some text";
+    background-color: green;
+}
+.box::before{
+    content: "some text";
+    background-color:violet;
+
+}
+a{
+    color: chartreuse;
+}
+.box1{
+    font-size: 35px;
+}
+a:hover{
+color: gold;
+}
+::marker{
+    color: red;
+}
+p:nth-child(even){
+    background-color: coral;
+}
+p:first-child{
+    background: yellow;
+}
+p:last-child{
+    background: yellowgreen;
+}
